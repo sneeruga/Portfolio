@@ -69,6 +69,57 @@
   </div>
 </div>
 
+<div class="ui special cards">
+  <div class="card">
+    <div class="blurring dimmable image">
+      <div class="ui dimmer">
+        <div class="content">
+          <div class="center">
+            <div class="ui inverted button">Add Friend</div>
+          </div>
+        </div>
+      </div>
+      <img src="/images/avatar/large/elliot.jpg">
+    </div>
+    <div class="content">
+      <a class="header">Team Fu</a>
+      <div class="meta">
+        <span class="date">Create in Sep 2014</span>
+      </div>
+    </div>
+    <div class="extra content">
+      <a>
+        <i class="users icon"></i>
+        2 Members
+      </a>
+    </div>
+  </div>
+  <div class="card">
+    <div class="blurring dimmable image">
+      <div class="ui inverted dimmer">
+        <div class="content">
+          <div class="center">
+            <div class="ui primary button">Add Friend</div>
+          </div>
+        </div>
+      </div>
+      <img src="/images/avatar/large/jenny.jpg">
+    </div>
+    <div class="content">
+      <a class="header">Team Hess</a>
+      <div class="meta">
+        <span class="date">Create in Aug 2014</span>
+      </div>
+    </div>
+    <div class="extra content">
+      <a>
+        <i class="users icon"></i>
+        2 Members
+      </a>
+    </div>
+  </div>
+</div>
+
 <h3 class="ui center aligned header">Stackable Grid</h3>
 <div class="ui two column stackable grid">
   <div class="column">
@@ -397,7 +448,30 @@
 <h3 class="ui center aligned header">Consecutive Doubling Stackable Grid</h3>
 <div class="doubling stackable three column ui grid container">
   <div class="column">
-    <div class="ui segment">Content</div>
+    <div class="ui card">
+    <div class="blurring dimmable image">
+      <div class="ui dimmer transition hidden">
+        <div class="content">
+          <div class="center">
+            <div class="ui inverted button">Call to Action</div>
+          </div>
+        </div>
+      </div>
+      <img src="../assets/images/wireframe/image.png">
+    </div>
+    <div class="content">
+      <a class="header">Name</a>
+      <div class="meta">
+        <span class="date">Date</span>
+      </div>
+    </div>
+    <div class="extra content">
+      <a>
+        <i class="users icon"></i>
+        Users
+      </a>
+    </div>
+  </div>
   </div>
   <div class="column">
     <div class="ui segment">Content</div>
@@ -710,6 +784,9 @@ $(document).ready(function() {
       }
     })
   ;
+  $('.special.cards .image').dimmer({
+  on: 'hover'
+});
 });
 </script>
 
