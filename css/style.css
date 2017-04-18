@@ -46,3 +46,11 @@
 }
 
 
+
+.time {
+	background-image: -webkit-linear-gradient(left, #FFDD98, #FFDD98 1%, transparent 1%, transparent 100%);
+	padding-left: 20px;
+}
+
+
+
