@@ -6,6 +6,26 @@
  * Made By MaterializeCSS.com
  */
 
+
+ /* DEBUG */
+.container {
+	/* background-color: lightgray; */
+	
+}
+
+.row {
+	/* background-color: lightblue; */
+}
+
+.col {
+	/* background-color: lightgreen; */
+}
+
+.section {
+	/* background-color: lightcoral; */
+}
+/* DEBUG END */ 
+
 .icon-block {
   padding: 0 15px;
 }
