@@ -39,18 +39,56 @@
   box-shadow: none;
 }
 
-/* BANNER */
 
-.custom-banner {
-    background-color: #f8f8f8;
+.logo-name {
+	font-size: 32px;
 }
 
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+  
+}
 
+.card:hover .overlay,
+.card:hover .white-text {
+  opacity: 0.7;
+  display: block;
+
+}
+
+.white-text {
+	display: none;
+	font-size: 20px;
+	top: 50%;
+  	left: 50%;
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	-ms-transform: translate(-50%, -50%);
+}
 
 .time {
 	background-image: -webkit-linear-gradient(left, #FFDD98, #FFDD98 1%, transparent 1%, transparent 100%);
 	padding-left: 20px;
 }
 
+
+footer.page-footer {
+	background-color: #f5f5f5;
+}
+
+.card:hover {
+	background-color: red;
+}
 
 
