@@ -119,3 +119,17 @@ h5.flow-text {
 .scrollspy {
 	position: relative;
 }
+
+.fixed {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+}
+
+
+
+
+
+
