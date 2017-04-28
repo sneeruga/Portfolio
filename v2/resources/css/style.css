@@ -40,6 +40,13 @@ body {
     margin: 0 auto;
 }
 
+.row-projects {
+    max-width: 1140px;
+    margin: 0 auto;
+    transform: translate(5%);
+    padding-bottom: 10%;
+}
+
 .name-row {
     max-width: 1140px;
     margin: 0 auto;
@@ -578,6 +585,10 @@ nav {
     z-index: 3;
 }
 
+.about-caption {
+    padding-bottom: 20px;
+}
+
 
 /*-----------------------------------------------------*/
 /* HOW IT WORKS */
@@ -602,6 +613,9 @@ nav {
     width: 130%;
 }
 
+.charlie-app-screen {
+    width: 70%;
+}
 .works-step {
     margin-top: 50px;
     margin-bottom: 20px;
@@ -919,25 +933,34 @@ cite img {
 }
 
 .project-photo {
-    width: 100%;
-    margin: 0;
+    width: 95%;
+    margin: 10px;
     overflow: hidden;
-    background-color: #000; 
+     
 
 }
+
+
 
 .project-photo img {
     opacity: 1;
     width: 120%; /*change this number for picture size */
     transform: scale(1.15);
-    transition: transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s;
     
 }
 
 .project-photo img:hover {
     transform: scale(1.03);
-    opacity: 0.3;
+   
 }
+
+.about-photo {
+    width: 90%;
+    height: 50%;
+    margin: 10px;
+}
+
 
 /*-----------------------------------------------------*/
 /* FOOTER */
@@ -945,7 +968,7 @@ cite img {
 
 footer {
     background-color: #333;
-    padding: 50px;
+    padding: 40px;
     font-size: 80%;
 }
 
@@ -976,7 +999,7 @@ footer {
 .social-links li a:visited {
     text-decoration: none;
     border: 0;
-    color: #888;
+    color: #dddddd;
     transition: color 0.2s;
 }
 
@@ -1017,7 +1040,16 @@ footer p{
 }
 
 .icon-title {
-    margin-left: 20%;
+    margin-left: 25%;
+}
+
+
+.sf {
+    color: white;
+}
+
+.ion-heart {
+    color: red;
 }
 
 /*-----------------------------------------------------*/
